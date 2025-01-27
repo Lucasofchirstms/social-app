@@ -89,7 +89,7 @@ msgstr "{0, plural, one {# citação} other {# citações}}"
 
 #: src/screens/Post/PostRepostedBy.tsx:41
 msgid "{0, plural, one {# repost} other {# reposts}}"
-msgstr "{0, plural, one {# repostagem} other {# repostagens}}"
+msgstr "{0, plural, one {# repost} other {# reposts}}"
 
 #: src/lib/hooks/useTimeAgo.ts:126
 msgid "{0, plural, one {# second} other {# seconds}}"
@@ -124,7 +124,7 @@ msgstr "{0, plural, one {curtida} other {curtidas}}"
 
 #: src/screens/Profile/Header/Metrics.tsx:58
 msgid "{0, plural, one {post} other {posts}}"
-msgstr "{0, plural, one {postagem} other {postagens}}"
+msgstr "{0, plural, one {post} other {posts}}"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:431
 msgid "{0, plural, one {quote} other {quotes}}"
@@ -136,11 +136,11 @@ msgstr "{0, plural, one {citação} other {citações}}"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:413
 msgid "{0, plural, one {repost} other {reposts}}"
-msgstr "{0, plural, one {repostagem} other {repostagens}}"
+msgstr "{0, plural, one {repost} other {reposts}}"
 
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:301
 #~ msgid "{0, plural, one {Unlike (# like)} other {Unlike (# likes)}}"
-#~ msgstr "{0, plural, one {Descurtir (# curtida)} other {Descurtir (# curtidas)}}"
+#~ msgstr "{0, plural, one {Remover curtida (# curtida)} other {Remover curtida (# curtidas)}}"
 
 #: src/screens/Settings/Settings.tsx:422
 msgid "{0}"
@@ -186,7 +186,7 @@ msgstr "Os feeds e pessoas favoritas de {0} - junte-se a mim!"
 
 #: src/screens/StarterPack/Wizard/StepDetails.tsx:46
 msgid "{0}'s starter pack"
-msgstr "O pacote de iniciante de {0}"
+msgstr "O pacote inicial de {0}"
 
 #. How many days have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:158
@@ -201,12 +201,12 @@ msgstr "{0}h"
 #. How many minutes have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:138
 msgid "{0}m"
-msgstr "{0}m"
+msgstr "{0}min"
 
 #. How many months have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:169
 msgid "{0}mo"
-msgstr "{0}me"
+msgstr "{0}m"
 
 #. How many seconds have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:128
@@ -248,7 +248,7 @@ msgstr "{count} itens não lidos"
 #: src/lib/generate-starterpack.ts:108
 #: src/screens/StarterPack/Wizard/index.tsx:178
 msgid "{displayName}'s Starter Pack"
-msgstr "O Pacote de iniciante de {displayName}"
+msgstr "O pacote inicial de {displayName}"
 
 #: src/screens/SignupQueued.tsx:219
 msgid "{estimatedTimeHrs, plural, one {hour} other {hours}}"
@@ -280,11 +280,11 @@ msgstr "{firstAuthorLink} e <0>{additionalAuthorsCount, plural, one {{formattedA
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:313
 msgid "{firstAuthorLink} followed you"
-msgstr "{firstAuthorLink} seguiu você"
+msgstr "{firstAuthorLink} te seguiu"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:290
 msgid "{firstAuthorLink} followed you back"
-msgstr "{firstAuthorLink} seguiu você de volta"
+msgstr "{firstAuthorLink} te seguiu de volta"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:339
 msgid "{firstAuthorLink} liked your custom feed"
@@ -296,11 +296,11 @@ msgstr "{firstAuthorLink} curtiu seu post"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:259
 msgid "{firstAuthorLink} reposted your post"
-msgstr "{firstAuthorLink} repostou seu post"
+msgstr "{firstAuthorLink} deu repost no seu post"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:363
 msgid "{firstAuthorLink} signed up with your starter pack"
-msgstr "{firstAuthorLink} se inscreveu com seu pacote inicial"
+msgstr "{firstAuthorLink} inscreveu-se com seu pacote inicial"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:294
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} followed you"
@@ -324,11 +324,11 @@ msgstr "{firstAuthorName} e {additionalAuthorsCount, plural, one {{formattedAuth
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:299
 msgid "{firstAuthorName} followed you"
-msgstr "{firstAuthorName} seguiu você"
+msgstr "{firstAuthorName} te seguiu"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:289
 msgid "{firstAuthorName} followed you back"
-msgstr "{firstAuthorName} seguiu você de volta"
+msgstr "{firstAuthorName} te seguiu de volta"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:325
 msgid "{firstAuthorName} liked your custom feed"
@@ -340,11 +340,11 @@ msgstr "{firstAuthorName} curtiu seu post"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:245
 msgid "{firstAuthorName} reposted your post"
-msgstr "{firstAuthorName} repostou seu post"
+msgstr "{firstAuthorName} deu repost no seu post"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:349
 msgid "{firstAuthorName} signed up with your starter pack"
-msgstr "{firstAuthorName} se inscreveu com seu pacote inicial"
+msgstr "{firstAuthorName} inscreveu-se com seu pacote inicial"
 
 #: src/components/ProfileHoverCard/index.web.tsx:508
 #: src/screens/Profile/Header/Metrics.tsx:49
@@ -353,7 +353,7 @@ msgstr "{following} seguindo"
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:388
 msgid "{handle} can't be messaged"
-msgstr "{handle} não pode receber mensagens"
+msgstr "Não pode entrar em contato com {handle}"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:294
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:307
@@ -363,7 +363,7 @@ msgstr "{handle} não pode receber mensagens"
 
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:260
 msgid "{notificationCount} unread items"
-msgstr ""
+msgstr "{notificationCount} itens não lidos"
 
 #: src/view/shell/Drawer.tsx:448
 msgid "{numUnreadNotifications} unread"
@@ -383,7 +383,7 @@ msgstr "{profileName} juntou-se ao Bluesky utilizando um pacote inicial há {0}"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:67
 #~ msgid "{value, plural, =0 {Show all replies} one {Show replies with at least # like} other {Show replies with at least # likes}}"
-#~ msgstr "{value, plural, =0 {Mostrar todas as respostas} one {Show replies with at least # curtida} other {Show replies with at least # curtidas}}"
+#~ msgstr "{value, plural, =0 {Exibir todas as respostas} one {Exibir respostas com no mínimo # curtida} other {Exibir respostas com no mínimo # curtidas}}"
 
 #: src/components/WhoCanReply.tsx:296
 #~ msgid "<0/> members"
@@ -519,11 +519,11 @@ msgstr "Acessibilidade"
 
 #: src/view/screens/Settings/index.tsx:455
 #~ msgid "Accessibility settings"
-#~ msgstr "Configurações de acessibilidade"
+#~ msgstr "Acessibilidade"
 
 #: src/Navigation.tsx:323
 msgid "Accessibility Settings"
-msgstr "Configurações de acessibilidade"
+msgstr "Acessibilidade"
 
 #: src/components/moderation/LabelsOnMe.tsx:42
 #~ msgid "account"
@@ -561,7 +561,7 @@ msgstr "Conta Silenciada por Lista"
 
 #: src/screens/Settings/Settings.tsx:428
 msgid "Account options"
-msgstr "Configurações da conta"
+msgstr "Ajustes da conta"
 
 #: src/screens/Settings/Settings.tsx:464
 msgid "Account removed from quick access"
@@ -592,7 +592,7 @@ msgstr "Adicione mais {0} para continuar"
 
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:58
 msgid "Add {displayName} to starter pack"
-msgstr "Adicione {displayName} ao pacote inicial"
+msgstr "Adicionar {displayName} ao pacote inicial"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:107
 #: src/view/com/composer/labels/LabelsBtn.tsx:112
@@ -634,7 +634,7 @@ msgstr "Adicionar outra conta"
 
 #: src/view/com/composer/Composer.tsx:728
 msgid "Add another post"
-msgstr "Adicionar outra postagem"
+msgstr "Adicionar outro post"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:102
 msgid "Add app password"
@@ -664,12 +664,12 @@ msgstr "Adicionar palavras/tags silenciadas"
 
 #: src/view/com/composer/Composer.tsx:1242
 msgid "Add new post"
-msgstr "Adicionar nova postagem"
+msgstr "Adicionar novo post"
 
 #: src/view/screens/ProfileList.tsx:903
 #: src/view/screens/ProfileList.tsx:921
 msgid "Add people"
-msgstr ""
+msgstr "Adicionar pessoas"
 
 #: src/screens/StarterPack/Wizard/index.tsx:197
 #~ msgid "Add people to your starter pack that you think others will enjoy following"
@@ -755,7 +755,7 @@ msgstr "Avançado"
 
 #: src/view/screens/Notifications.tsx:86
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:381
 msgid "All accounts have been followed!"
@@ -782,7 +782,7 @@ msgstr "Permitir novas mensagens de"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:314
 msgid "Allow quote posts"
-msgstr ""
+msgstr "Permitir citar posts"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:359
 msgid "Allow replies from:"
@@ -957,7 +957,7 @@ msgstr "Qualquer pessoa pode interagir"
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:18
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:23
 msgid "App Icon"
-msgstr ""
+msgstr "Ícone do Aplicativo"
 
 #: src/screens/Settings/LanguageSettings.tsx:80
 msgid "App Language"
@@ -993,7 +993,7 @@ msgstr "O nome da senha do aplicativo deve ter pelo menos 4 caracteres"
 
 #: src/view/screens/Settings/index.tsx:664
 #~ msgid "App password settings"
-#~ msgstr "Configurações de Senha de Aplicativo"
+#~ msgstr "Opções de Senha"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:63
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:66
@@ -1039,11 +1039,11 @@ msgstr "Aparência"
 
 #: src/view/screens/Settings/index.tsx:476
 #~ msgid "Appearance settings"
-#~ msgstr "Configurações de aparência"
+#~ msgstr "Tema"
 
 #: src/Navigation.tsx:325
 #~ msgid "Appearance Settings"
-#~ msgstr "Configurações de aparência"
+#~ msgstr "Tema"
 
 #: src/screens/Feeds/NoSavedFeedsOfAnyType.tsx:47
 #: src/screens/Home/NoFeedsPinned.tsx:93
@@ -1337,7 +1337,7 @@ msgstr ""
 
 #: src/screens/Settings/AppIconSettings/index.tsx:102
 msgid "Bluesky+ icons"
-msgstr ""
+msgstr "Ícones do Bluesky+"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
@@ -1369,7 +1369,7 @@ msgstr "Navegue por mais feeds na página Explorar"
 #: src/components/FeedInterstitials.tsx:463
 #: src/components/FeedInterstitials.tsx:466
 msgid "Browse more suggestions"
-msgstr "Veja mais sugestões"
+msgstr "Ver mais sugestões"
 
 #: src/components/FeedInterstitials.tsx:356
 #: src/components/FeedInterstitials.tsx:490
@@ -1383,15 +1383,15 @@ msgstr "Navegar por outros feeds"
 
 #: src/components/TrendingTopics.tsx:176
 msgid "Browse posts about {displayName}"
-msgstr ""
+msgstr "Ver posts sobre {displaynName}"
 
 #: src/components/TrendingTopics.tsx:184
 msgid "Browse posts tagged with {displayName}"
-msgstr ""
+msgstr "Ver posts etiquetados com {displayName}"
 
 #: src/components/TrendingTopics.tsx:222
 msgid "Browse topic {displayName}"
-msgstr ""
+msgstr "Ver tópico {displayName}"
 
 #: src/view/com/auth/SplashScreen.web.tsx:168
 msgid "Business"
@@ -1419,7 +1419,7 @@ msgstr "Por {0}"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:447
 msgid "By <0>{0}</0>"
-msgstr ""
+msgstr "por <0>{0}</0>"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:80
 #~ msgid "By creating an account you agree to the {els}."
@@ -1552,12 +1552,12 @@ msgstr "Alterar"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:39
 msgid "Change app icon"
-msgstr ""
+msgstr "Alterar ícone do aplicativo"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:38
 #: src/screens/Settings/AppIconSettings/index.tsx:221
 msgid "Change app icon to \"{0}\""
-msgstr ""
+msgstr "Alterar ícone do aplicativo para \"{0}\""
 
 #: src/screens/Settings/AccountSettings.tsx:97
 #: src/screens/Settings/AccountSettings.tsx:101
@@ -1592,7 +1592,7 @@ msgstr "Alterar Senha"
 
 #: src/view/com/composer/select-language/SuggestedLanguage.tsx:74
 msgid "Change post language to {0}"
-msgstr "Alterar idioma da postagem para {0}"
+msgstr "Alterar idioma do post para {0}"
 
 #: src/view/com/modals/ChangeEmail.tsx:104
 msgid "Change Your Email"
@@ -1618,11 +1618,11 @@ msgstr "Chat silenciado"
 #: src/Navigation.tsx:393
 #: src/screens/Messages/ChatList.tsx:246
 msgid "Chat settings"
-msgstr "Configurações do Chat"
+msgstr "Ajustes do chat"
 
 #: src/screens/Messages/Settings.tsx:62
 msgid "Chat Settings"
-msgstr "Configurações do Chat"
+msgstr "Ajustes do chat"
 
 #: src/components/dms/ConvoMenu.tsx:84
 msgid "Chat unmuted"
@@ -1635,7 +1635,7 @@ msgstr "Chat dessilenciado"
 #: src/screens/SignupQueued.tsx:78
 #: src/screens/SignupQueued.tsx:82
 msgid "Check my status"
-msgstr "Verificar minha situação"
+msgstr "Verificar mdu status"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:122
 #~ msgid "Check out some recommended feeds. Tap + to add them to your list of pinned feeds."
@@ -1671,7 +1671,7 @@ msgstr "Escolher método de verificação de domínio"
 
 #: src/screens/StarterPack/Wizard/index.tsx:194
 msgid "Choose Feeds"
-msgstr "Escolha os feeds"
+msgstr "Escolher feeds"
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:308
 msgid "Choose for me"
@@ -1679,11 +1679,11 @@ msgstr "Escolha para mim"
 
 #: src/screens/StarterPack/Wizard/index.tsx:190
 msgid "Choose People"
-msgstr "Escolha Pessoas"
+msgstr "Escolher Pessoas"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:115
 msgid "Choose self-labels that are applicable for the media you are posting. If none are selected, this post is suitable for all audiences."
-msgstr "Escolha rótulos que são aplicáveis à mídia que você está postando. Se nenhum for selecionado, significa que esta postagem é adequada para todos os públicos."
+msgstr "Escolher rótulos que são aplicáveis à mídia que você está postando. Se nenhum for selecionado, significa que esta postagem é adequada para todos os públicos."
 
 #: src/view/com/auth/server-input/index.tsx:76
 msgid "Choose Service"
@@ -1691,12 +1691,12 @@ msgstr "Escolher Serviço"
 
 #: src/screens/Onboarding/StepFinished.tsx:280
 msgid "Choose the algorithms that power your custom feeds."
-msgstr "Escolha os algoritmos que geram seus feeds customizados."
+msgstr "Escolher os algoritmos que geram seus feeds customizados."
 
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:83
 #: src/view/com/auth/onboarding/WelcomeMobile.tsx:85
 #~ msgid "Choose the algorithms that power your experience with custom feeds."
-#~ msgstr "Escolha os algoritmos que fazem sentido para você com os feeds customizados."
+#~ msgstr "Escolher os algoritmos que fazem sentido para você com os feeds customizados."
 
 #: src/screens/Onboarding/StepProfile/AvatarCreatorItems.tsx:107
 msgid "Choose this color as your avatar"
@@ -1705,16 +1705,16 @@ msgstr "Selecionar esta cor como seu avatar"
 #: src/components/dialogs/ThreadgateEditor.tsx:91
 #: src/components/dialogs/ThreadgateEditor.tsx:95
 #~ msgid "Choose who can reply"
-#~ msgstr "Escolha quem pode responder"
+#~ msgstr "Escolher quem pode responder"
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:104
 #~ msgid "Choose your main feeds"
-#~ msgstr "Escolha seus feeds principais"
+#~ msgstr "Escolher seus feeds principais"
 
 #: src/view/screens/Feeds.tsx:728
 #: src/view/screens/Search/Explore.tsx:411
 msgid "Choose your own timeline! Feeds built by the community help you find content you love."
-msgstr ""
+msgstr "Escolha sua própria timeline! Feeds construidos pela ajuda da comunidade para ajudá-lo a encontrar o conteúdo que você mais ama."
 
 #: src/screens/Signup/StepInfo/index.tsx:201
 msgid "Choose your password"
@@ -1722,7 +1722,7 @@ msgstr "Escolha sua senha"
 
 #: src/screens/Signup/index.tsx:142
 msgid "Choose your username"
-msgstr "Seu identificador de usuário"
+msgstr "Seu nome de usuário"
 
 #: src/view/screens/Settings/index.tsx:912
 #~ msgid "Clear all legacy storage data"
@@ -1830,7 +1830,7 @@ msgstr "Fechar janela"
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:137
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:173
 msgid "Close emoji picker"
-msgstr ""
+msgstr "Fechar selecionador de emoji"
 
 #: src/components/dialogs/GifSelect.tsx:169
 msgid "Close GIF dialog"
@@ -1910,7 +1910,7 @@ msgstr "Complete o captcha"
 
 #: src/view/shell/desktop/LeftNav.tsx:301
 msgid "Compose new post"
-msgstr "Escrever nova postagem"
+msgstr "Escrever novo post"
 
 #: src/view/com/composer/Composer.tsx:819
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
@@ -1959,7 +1959,7 @@ msgstr "Confirmar Alterações"
 
 #: src/view/com/modals/lang-settings/ConfirmLanguagesButton.tsx:34
 msgid "Confirm content language settings"
-msgstr "Confirmar configurações de idioma de conteúdo"
+msgstr "Confirmar opções de idioma de conteúdo"
 
 #: src/view/com/modals/DeleteAccount.tsx:264
 msgid "Confirm delete account"
